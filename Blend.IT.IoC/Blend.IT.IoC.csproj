@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blend.IT.AppService\Blend.IT.AppService.csproj" />
+    <ProjectReference Include="..\Blend.IT.Domain\Blend.IT.Domain.csproj" />
+    <ProjectReference Include="..\Blend.IT.Infra\Blend.IT.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

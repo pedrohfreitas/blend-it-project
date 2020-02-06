@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Blend.IT.API/Blend.IT.API.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
